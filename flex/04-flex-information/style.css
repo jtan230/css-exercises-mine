@@ -1,10 +1,44 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:32px;
+}
+
+.images-and-text {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex: 1 1 200px;
+  justify-content: center;
+  gap: 52px;
+  max-width: 200px;
+}
+
+.first .second .third .fourth {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+  
+}
+
+.text {
+  text-align: center;
+  flex: 1;
 }
 
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
